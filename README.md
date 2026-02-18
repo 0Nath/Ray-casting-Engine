@@ -6,10 +6,10 @@ To be launched, the engine need a map and a textures dic.
 Those variables can be generated like this:
 ```
 from raycasting import Engine, load_map, generate_textures
-map = load_map("map.txt")
-textures = generate_textures( { 1: "brick.bmp" , 2: "test.bmp" , 3: "brick3.bmp" , 4: "brick2.png" , 5: (100,100,0) } )
+map = load_map("map/map.txt")
+textures = generate_textures( { 1: "textures/brick.bmp" , 2: "textures/test.bmp" , 3: "textures/brick3.bmp" , 4: "textures/brick2.png" , 5: (100,100,0) } )
 ```
-with a map looking like this, where each number will be associated with a texture in the dictionnary.
+with a map looking like [this](map/map.txt), where each number will be associated with a texture in the dictionnary.
 
 The Engine class can then be launched like this:
 ```
