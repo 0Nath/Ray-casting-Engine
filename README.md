@@ -1,6 +1,6 @@
 # Ray-casting-Engine
 
-![An example image](images/example.png)
+![An example image](images/example2.png)
 
 A python implementation of a DOOM-like ray-casting engine
 ---
